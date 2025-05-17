@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Base\BaseController\" />
+    <Folder Include="Base\BaseLogic\" />
+    <Folder Include="Base\BaseRepository\Implementation\" />
+  </ItemGroup>
+
 </Project>
